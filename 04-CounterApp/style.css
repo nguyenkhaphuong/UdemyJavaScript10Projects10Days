@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(255, 228, 232);
+}
+
+.container-card {
+  display: flex;
+  max-width: 65%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 0.6rem black;
+  padding: 4rem 2rem;
+  margin: 4rem auto;
+}
+
+.container-display {
+  font-size: 8rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.button-container {
+  margin: 1rem 0;
+}
+
+.button-container > .add-button {
+  width: 8rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.4rem 0.2rem;
+  margin: 0.2rem 0;
+  background-color: blue;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+}
+
+.button-container > .add-button:hover {
+  width: 8rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.4rem 0.2rem;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}
+
+.button-container > .subtract-button {
+  width: 8rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.4rem 0.2rem;
+  margin: 0.2rem 0;
+  background-color: blue;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+}
+
+.button-container > .subtract-button:hover {
+  width: 8rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.4rem 0.2rem;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}
+
+.reset-button {
+  width: 10rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.4rem 0.2rem;
+  border-radius: 1rem;
+  background-color: brown;
+  text-align: center;
+  color: white;
+}
+
+.reset-button:hover {
+  width: 10rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.4rem 0.2rem;
+  border-radius: 1rem;
+  background-color: red;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}

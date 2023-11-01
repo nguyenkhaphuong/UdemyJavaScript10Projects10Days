@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Age Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="header-text">Age Calculator</h2>
+      <form id="ageCalForm">
+        <div class="form-group">
+          <label for="birth-date">Enter your Date of Birth</label>
+          <input
+            type="text"
+            name="birth-date"
+            id="dateOfBirth"
+            placeholder="DD/MM/YYYY"
+            required />
+        </div>
+        <input type="submit" value="Calculate Age" />
+        <div class="result-container" id="resultContainer">
+          <div class="result" id="result">
+            <div class="result-item">
+              <h3>Weeks Passed:</h3>
+              <p>ageInWeeks</p>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

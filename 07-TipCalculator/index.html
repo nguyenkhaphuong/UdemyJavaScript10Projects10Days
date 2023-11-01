@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="tipCalForm">
+        <h2>Tip Calculator</h2>
+        <hr />
+        <div class="form-group">
+          <label for="bill-amount">Bill Amount</label>
+          <input
+            type="number"
+            id="billAmount"
+            placeholder="Enter your Bill Amount" />
+        </div>
+        <div class="form-group">
+          <label for="service-rating">Service Rating</label>
+          <select name="rating" id="serviceRating">
+            <option value="1">Poor</option>
+            <option value="2">Average</option>
+            <option value="3">Good</option>
+            <option value="4">Excellent</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="number-of-people">Number of People</label>
+          <input
+            type="number"
+            id="numberOfPeople"
+            placeholder="Enter number of people" />
+        </div>
+        <div class="form-group">
+          <label for="meal-type">Meal Type</label>
+          <select name="meal-type" id="mealType">
+            <option value="breakfast">Breakfast</option>
+            <option value="lunch">Lunch</option>
+            <option value="dinner">Dinner</option>
+          </select>
+        </div>
+        <hr />
+        <h3>Result</h3>
+        <div id="result"></div>
+        <input type="submit" id="submitForm" />
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

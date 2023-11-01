@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: hsl(200, 100%, 96%);
+}
+
+.header-text {
+  font-weight: bold;
+  color: darkcyan;
+  margin: 0 0 1rem 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.5rem grey;
+  width: fit-content;
+  padding: 2rem 2.5rem;
+}
+
+.color-box {
+  width: 20rem;
+  height: 10rem;
+  background-color: aquamarine;
+}
+
+.sliders {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  align-items: self-end;
+}
+
+.sliders .slider {
+  display: flex;
+  margin: 0.6rem 0;
+}
+
+.sliders .slider input[type='range'] {
+  margin: 0 0.4rem;
+  width: 14rem;
+}
+
+.sliders .slider span {
+  font-size: 1rem;
+  width: 2rem;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.button-container #copyButton {
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 1rem;
+}
+
+.button-container #copyButton:hover {
+  background-color: hsl(182, 35%, 60%);
+  cursor: pointer;
+}
+
+.button-container #inputType {
+  background-color: antiquewhite;
+  font-weight: bold;
+  border: none;
+  width: 10rem;
+  text-align: center;
+  border-radius: 0.6rem;
+  padding: 1rem;
+}

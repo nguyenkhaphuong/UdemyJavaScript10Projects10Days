@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+  padding: 3rem 1rem;
+  margin: 4rem auto;
+  border-radius: 1.5rem;
+  box-shadow: 1px 1px 0.5rem black;
+  background-color: #deeaee;
+  flex-direction: column;
+}
+
+.form-group {
+  margin: 0.8rem 0;
+}
+
+.form-group > label {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+#result {
+  margin: 0.8rem 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+input[type="submit"] {
+  width: 25rem;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 1rem;
+  background-color: green;
+}
+
+input[type="submit"]:hover {
+  width: 25rem;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 1rem;
+  background-color: #08a045;
+  cursor: pointer;
+}
+
+input[type="number"] {
+  width: 100%;
+  border-radius: 1rem;
+  border: none;
+  padding: 1rem;
+}

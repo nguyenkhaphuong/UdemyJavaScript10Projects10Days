@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2 class='header-text'>BMI Calculator</h2>
+    <form id='bmiForm'>
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender" required>
+          <option name='male'>Male</option>
+          <option name='female'>Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" placeholder="Enter Age">
+        <p id="errorMessageAge"></p>
+      </div>
+      <div class="form-group">
+        <label for="height">Height</label>
+        <input type="number" name="height_feet" id='heightFeet' placeholder="Feet"><br>
+        <p id="errorMessageHeightFeet"></p>
+        <input type="number" name="height_inches" id='heightInches' placeholder="Inches"><br>
+        <p id="errorMessageHeightInches"></p>
+      </div>
+      <div class="form-group">
+        <label for="weight">Weight</label>
+        <input type="number" id="weight" placeholder="Weight in KGs">
+        <p id="errorMessageWeight"></p>
+      </div>
+      <input type="submit" value="Calculate BMI">
+    </form>
+    <p id='result'></p>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Counter App</title>
+  </head>
+  <body>
+    <div class="container-card">
+      <h1>Counter App</h1>
+      <div class="container-display" id="counterDisplay">0</div>
+      <div class="button-container">
+        <button class="add-button" id="addButton" onclick="increment()">
+          +
+        </button>
+        <button
+          class="subtract-button"
+          id="subtractButton"
+          onclick="decrement()">
+          -
+        </button>
+      </div>
+      <div class="reset-button" id="resetButton" onclick="reset()">Reset</div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
